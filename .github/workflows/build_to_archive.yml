@@ -23,7 +23,7 @@ jobs:
       with:
         app_id: ${{ secrets.GH_APP_ID }}
         private_key: ${{ secrets.GH_APP_KEY }}
-        repository: "recloudstream/secrets"
+        repository: "figma6/cloudstream"
     - name: Generate access token (archive)
       id: generate_archive_token
       uses: tibdex/github-app-token@v2
